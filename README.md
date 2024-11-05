@@ -16,8 +16,9 @@ Tabelas do banco de dados ROOM
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
 | ID : long (pk)																									| ID : long (pk)																									| ID : long (pk)																									|
 | NAME : string																										| NAME : string																										| NAME : string																										|
-| EMAIL : string																									| CATEGORY : long (fk)																						| CATEGORY : long																								  |
-| PASSWORD	: string																							| TASKPARENT	: long																							|
+| EMAIL : string																									| CATEGORY : long (fk categories)																	| CATEGORY : long																								  |
+| PASSWORD	: string                                              | USERID : long (fk user)                                         |                                                                 |
+|                   																							| TASKPARENT	: long																							|
 | 																								                | CREATEDATE	: long																							|
 |                                                                 | DUEDATE	: long	  																						  |
 |                                                                 | DONE	: long																										|
