@@ -7,7 +7,7 @@ KOTLIN &#8594; Linguagem de programação\
 COMPOSE &#8594; Desenvolvimento das telas\
 MVVM &#8594; Arquitetura do aplicativo\
 ROOM &#8594; Banco de dados local\
-HILT &#8594; Injeção de dependência
+HILT &#8594; Injeção de dependência\
 FIREBASE &#8594; Autenticação e Database
 
 
