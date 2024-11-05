@@ -15,8 +15,8 @@ Tabelas do banco de dados ROOM
 | **TABELA USUÁRIO**  (user)																			|  TABELA TAREFAS (task)																			    | TABELA CATEGORIAS (categories)																	|
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
 | ID : long (pk)																									| ID : long (pk)																									| ID : long (pk)																									|
-| NAME : string																										| NAME : string																										| NAME : string																										|
-| EMAIL : string																									| CATEGORY : long (fk categories)																	| CATEGORY : long																								  |
+| NAME : string																										| NAME : string																										| CATEGORY : string																								|
+| EMAIL : string																									| CATEGORY : long (fk categories)																	|                                                                 |
 | PASSWORD	: string                                              | USERID : long (fk user)                                         |                                                                 |
 |                   																							| TASKPARENT	: long																							|
 | 																								                | CREATEDATE	: long																							|
