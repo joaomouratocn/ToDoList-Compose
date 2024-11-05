@@ -12,26 +12,12 @@ HILT &#8594; Injeção de dependência\
 
 Tabelas do banco de dados ROOM
 
-| **TABELA USUÁRIO**	(user)																			|
-|:-----------------------------------------------------------------------------------------------------:|
-| ID : long (pk)																										|
-| NAME : string																										|
-| EMAIL : string																										|
-| PASSWORD	: string																								|
-| 																								                            |
-
-| TABELA TAREFAS (task)																			        |
-|:-----------------------------------------------------------------------------------------------------:|
-| ID : long (pk)																										|
-| NAME : string																										|
-| CATEGORY : long (fk)																							|
-| TASKPARENT	: long																							|
-| CREATEDATE	: long																							|
-| DUEDATE	: long																								|
-| DONE	: long																										|
-
-| TABELA CATEGORIAS (categories)																	|
-|:----------------------------------------------------------------------------------------------------:|
-| ID : long (pk)																										|
-| NAME : string																										|
-| CATEGORY : long																								|
+| **TABELA USUÁRIO**  (user)																			|  TABELA TAREFAS (task)																			    | TABELA CATEGORIAS (categories)																	|
+|:---------------------------------------------------------------:|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
+| ID : long (pk)																									| ID : long (pk)																									| ID : long (pk)																									|
+| NAME : string																										| NAME : string																										| NAME : string																										|
+| EMAIL : string																									| CATEGORY : long (fk)																						| CATEGORY : long																								  |
+| PASSWORD	: string																							| TASKPARENT	: long																							|
+| 																								                | CREATEDATE	: long																							|
+|                                                                 | DUEDATE	: long	  																						  |
+|                                                                 | DONE	: long																										|
